@@ -1,0 +1,34 @@
+{
+	"name": "Alx",
+	"image": "bio75/alx-vscode:1.0",
+	// Increase the max number of open file descriptors for valgrind
+	"runArgs": [
+		"--ulimit",
+		"nofile=1024:1024"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"ms-python.python",
+				"PKief.material-icon-theme"
+			],
+			"settings": {
+				"workbench.colorTheme": "Default Dark Modern",
+				"workbench.iconTheme": "material-icon-theme",
+				"editor.insertSpaces": false,
+				"editor.formatOnSave": true,
+				"git.autofetch": true,
+				"files.insertFinalNewline": true,
+				"terminal.integrated.defaultProfile.linux": "zsh",
+				"extensions.ignoreRecommendations": true
+			}
+		}
+	}
+	// control resources
+	// "hostRequirements": {
+	//     "cpus": 8,
+	//     "memory": "1gb",
+	//     "storage": "4gb"
+	// }
+}

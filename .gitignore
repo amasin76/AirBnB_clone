@@ -1,0 +1,6 @@
+.vscode
+__pycache__/
+dist/
+build/
+
+w3c_validator.py
