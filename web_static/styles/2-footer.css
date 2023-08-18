@@ -1,5 +1,10 @@
-header {
-	background-color: #FF0000;
-	height: 70px;
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	background-color: #00FF00;
+	height: 60px;
 	width: 100%;
 }
